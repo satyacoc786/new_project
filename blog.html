@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="college.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+<body>
+ <!--college-->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img class="logo" src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" onclick="hidenMenu()"></i>
+
+                <ul>
+                    <li><a href="college.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()" ></i>
+        </nav>
+        <h1>Our Certificate & Online programs </h1>
+    </section>
+
+
+    <!--Blog conntent-->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="blog.jpg" alt="">
+                <div class="layer"></div>
+                <h2>Our Certificate & Online programs</h2>
+                <p>Candidates looking for admission to Pace Institute of Technology and Sciences can apply for courses   such as After 10th Diploma, B.E. / B.Tech and M.E./M.Tech in a wide range of specialisations. The aspirants must ensure they complete the eligibility 
+                     criteria and get a valid score in the last qualifying exam to apply for courses at Pace Institute of Technology and Sciences. The tuition fees for each   programme vary depending on the number of specialisations offered or the number of affiliated colleges providing seats for the programme.
+                    Candidates can have a look at the table below to get an understanding of the Pace Institute of Technology and Sciences tuition fees, eligibility criteria,
+                     and qualifying exams necessary for each course:<br>
+
+                    </p>
+
+                <p>Candidates looking for admission to Pace Institute of Technology and Sciences can apply for courses,
+                     such as After 10th Diploma, B.E. / B.Tech and M.E./M.Tech in a wide range of specialisations. The aspirants must ensure they complete the eligibility 
+                     criteria and get a valid score in the last qualifying exam to apply for courses at Pace Institute of Technology and Sciences. The tuition fees for each
+                     programme vary depending on the number of specialisations offered or the number of affiliated colleges providing seats for the programme.
+                     Candidates can have a look at the table below to get an understanding of the Pace Institute of Technology and Sciences tuition fees, eligibility criteria,
+                    and qualifying exams necessary for each course:<br>
+                </p>
+
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form  class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="text" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+          <!--Footer-->
+
+          <section class="footer up">
+            <h4>About Us</h4>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <p>Made With <i class="fa-solid fa-heart"></i>By Satya Vardhan</p>
+          </section>
+          <!--ABOUT -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hidenMenu(){
+            navLinks.style.right="-220px";
+        }
+    </script>
+    
+</body>
+</html>
